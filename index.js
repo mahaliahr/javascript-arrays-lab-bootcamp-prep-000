@@ -18,8 +18,7 @@ kittens.shift(kitten)
 }
 
 function appendKitten(kitten) {
-kittens = kittens.splice(kitten)
-return kittens
+newKittens = kittens.concat(kitten)
 }
 
 function prependKitten(kitten) {
