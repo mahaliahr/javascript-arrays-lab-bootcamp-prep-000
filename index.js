@@ -19,10 +19,12 @@ kittens.shift(kitten)
 
 function appendKitten(kitten) {
 kittens = [kitten, ...kittens]
+return kittens
 }
 
 function prependKitten(kitten) {
 kittens = [...kittens, kitten]
+return kittens
 }
 
 function removeLastKitten() {
