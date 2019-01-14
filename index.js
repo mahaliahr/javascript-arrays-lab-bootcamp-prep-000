@@ -22,8 +22,8 @@ var newKittens = kittens.concat(kitten)
 return newKittens
 }
 
-function prependKitten(kittens) {
-var newKittens = kittens.unshift(kittens)
+function prependKitten(kitten) {
+var newKittens = [kitten, ...kittens]
 return newKittens
 }
 
