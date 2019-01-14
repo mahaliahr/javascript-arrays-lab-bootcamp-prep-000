@@ -22,7 +22,7 @@ var newKittens = kittens.concat(kitten)
 return newKittens
 }
 
-function prependKitten(kitten) {
+function prependKitten(kittens) {
 var newKittens = kittens.unshift(kittens)
 return newKittens
 }
