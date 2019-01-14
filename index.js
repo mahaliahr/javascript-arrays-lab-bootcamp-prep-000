@@ -22,7 +22,7 @@ kittens = kittens.concat(kitten)
 }
 
 function prependKitten(kitten) {
-kittens = [...kittens, kitten]
+kittens = [kitten, ...kittens]
 return kittens
 }
 
